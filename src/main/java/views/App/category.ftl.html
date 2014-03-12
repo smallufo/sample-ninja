@@ -1,0 +1,15 @@
+<#import "../layout/defaultLayout.ftl.html" as layout>
+<@layout.myLayout "Category">
+
+<h1>Category : ${category.name}</h1>
+
+<h2>Data(s) : </h2>
+<ul>
+  <#list dataList as dto>
+      <li>
+        ${dto.data.name}
+      </li>
+  </#list>
+</ul>
+
+</@layout.myLayout>
