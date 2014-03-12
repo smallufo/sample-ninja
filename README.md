@@ -4,8 +4,11 @@ sample-ninja
 It's shows @UnitOfWork often fails.
 
 One Category has many Data(s).
+
 Each Data has 3 DataNote(s) , but it is not directly written in @OneToMany in Data.
+
 DataDto is a DTO object which links Data and DataNotes altogether.
+
 The diagram is as following:
 
 <img src="http://i.imgur.com/qqct3UJ.png">
